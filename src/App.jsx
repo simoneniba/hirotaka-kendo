@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 export default function App() {
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    audio.volume = 0.3;
+    audio.play().catch(() => {});
+  }, []);
+
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center text-white p-6"
       style={{ backgroundImage: 'url(/ghibli-italy.png)' }}
     >
+      <audio ref={audioRef} loop>
+        <source src="/music.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
       <div className="max-w-3xl text-center bg-black bg-opacity-60 p-8 rounded-lg space-y-4">
         <img
           src="/sato.png"
