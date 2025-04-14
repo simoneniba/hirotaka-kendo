@@ -1,21 +1,16 @@
-{
-  "name": "hirotaka-tour",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "vite": "^4.5.0",
-    "tailwindcss": "^3.3.2",
-    "postcss": "^8.4.23",
-    "autoprefixer": "^10.4.13",
-    "@vitejs/plugin-react": "^4.0.0"
-  },
-  "license": "MIT"
+"scripts": {
+  "build": "vite build",
+  "dev": "vite",
+  "preview": "vite preview"
+},
+"dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
+},
+"devDependencies": {
+  "vite": "^4.5.0",
+  "@vitejs/plugin-react": "^4.0.0",
+  "tailwindcss": "^3.3.2",
+  "postcss": "^8.4.23",
+  "autoprefixer": "^10.4.13"
 }
