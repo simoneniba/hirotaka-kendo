@@ -28,7 +28,7 @@ export default function App() {
 
         <h1 className="text-5xl font-bold">HIROTAKA SATO ITALIAN TOUR</h1>
         <p className="text-xl font-medium">Dal 31 Maggio all'8 Giugno 2025</p>
-        <p className="text-lg"> COPPA LOMBARDIA SPECIAL GUEST 2/6, SEICHUDO BRESCIA 3/6, SHUMPUKAN MILANO 4/6, BOLOGNA 5/6, JOFUKAN Firenze 6-7/6 </p>
+        <p className="text-lg"> COPPA LOMBARDIA 2 GIUGNO, SEICHUDO BRESCIA 3 GIUGNO, SHUMPUKAN MILANO 4 GIUGNO, BOLOGNA 5 GIUGNO, JOFUKAN Firenze 6-7 GIUGNO </p>
 
         <p className="text-md leading-relaxed">
           Hirotaka Sato, vicecampione del campionato nazionale della polizia giapponese 2019, e 7 volte competitor agli ALL JAPAN KENDO CHAMPIONSHIP, arriva in Italia per seminari e allenamenti esclusivi.
